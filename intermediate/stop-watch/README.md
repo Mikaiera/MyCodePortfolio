@@ -2,10 +2,10 @@
 
 A modern stopwatch application with lap functionality and keyboard controls, built with pure HTML, CSS, and JavaScript during my web development journey.
 
-![Stopwatch Screenshot](.../Assets/stopwatch_screenshot.png)
+![Stopwatch Screenshot](/intermediate/stop-watch/stopwatch/Assets/stopwatch_screenshot.png)
 
 ## Description
-This stopwatch was created in 2023 as my first exploration into interactive web applications with complex timing logic and user feedback systems. It represents my growing understanding of DOM manipulation and CSS animations.
+This stopwatch was created in 2023 as my first exploration into interactive web applications with timing logic and user feedback systems. It represents my growing understanding of DOM manipulation and CSS animations.
 
 Key characteristics:
 - Circular neon-lit display
