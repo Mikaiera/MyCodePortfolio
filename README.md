@@ -1,9 +1,10 @@
 # CodeCabinet
-A GitHub repository to organise my personal projects into categories (beginner, intermediary, advanced) using folders and a structured README.md file.
+A GitHub repository to organize my personal projects into categories (beginner, intermediate, advanced) using folders and a structured README.md file.
+
 ## Categories
-- [🟢 Beginner Projects](#beginner-projects)
-- [🟡 Intermediate Projects](#intermediate-projects)
-- [🔴 Advanced Projects](#advanced-projects)
+- [🟢 Beginner Projects](beginner/)  
+- [🟡 Intermediate Projects](intermediate/)  
+- [🔴 Advanced Projects](advanced/)  
 
 ---
 
