@@ -1,0 +1,128 @@
+/* Base Colors */
+:root {
+    --primary-color: #c535b9; 
+    --secondary-color: #55cdcf; 
+    --accent-color: #f39c12; 
+    --background-color: #121212;
+    --container-background: #1f1f1f; 
+    --text-color: #ffffff;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--text-color);
+    min-height: 100vh;
+    font-family: 'Roboto Mono', Arial, Helvetica;
+    background:#010101;
+    
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+    padding: 1rem;
+}
+
+.watch-container {
+    border-radius: 50%;
+    width: 20vw;
+    height: auto;
+    font-size: 6vw;
+    margin: 2rem;
+    padding:20px;
+    background: var(--container-background);
+    color: var(--text-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 30px rgba(255, 105, 180, 0.7);
+}
+
+.watch-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 6rem;
+}
+
+.watch-buttons button {
+    border: none;
+    margin: 1rem;
+    width: 7rem;
+    height: 3rem;
+    outline: none;
+    cursor: pointer;
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    border-radius: 10px;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.watch-buttons button:hover {
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5), 0 0 20px var(--primary-color), 0 0 30px var(--primary-color);
+}
+
+.watch-buttons button:nth-last-child(1) {
+    background-color: var(--secondary-color);
+}
+
+.watch-buttons button:nth-last-child(2) {
+    background-color: var(--primary-color); 
+}
+
+.watch-buttons button:nth-child(3) {
+    background-color: var(--accent-color);
+}
+
+::-webkit-scrollbar{
+    background-color: var(--background-color);
+    width: 10px;    
+}
+
+::-webkit-scrollbar-button{
+    background-color: var(--primary-color);
+
+}
+.lap-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+    padding: 1rem;
+    color: var(--text-color);
+}
+
+.lap-container div {
+    background-color: #333333;
+    border: 2px solid var(--primary-color);
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+    width: 200px;
+    text-align: center;
+    font-size: 16px;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
+}
+
+.notification {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: rgba(255, 0, 255, 0.8);
+    color: var(--text-color);
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    z-index: 1000;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.notification.show {
+    opacity: 1;
+}
