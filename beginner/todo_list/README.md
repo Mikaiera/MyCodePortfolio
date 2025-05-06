@@ -2,7 +2,7 @@
 
 A simple yet powerful task management web application built with pure HTML, CSS, and JavaScript, evolved through my web development journey.
 
-[Todo List Screenshot](/beginner/todo_list/todolist/images/todo_screenshot.png)
+![Todo List Screenshot](/beginner/todo_list/todolist/images/todo_screenshot.png)
 
 ## Description
 This todo list was my interactive web application project, initially created in 2022 to practice core web development concepts. Refined in 2024, it demonstrates my growing skills in creating persistent web applications with enhanced UX.
