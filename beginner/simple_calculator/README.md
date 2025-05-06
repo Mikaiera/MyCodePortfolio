@@ -2,7 +2,7 @@
 
 A simple calculator web application built with pure HTML, CSS, and JavaScript during my early web development learning journey.
 
-![Calculator Screenshot](../images/calculator_image)
+![Calculator Screenshot](beginner/simple_calculator/Simple_Calculator/images/calculator_image.png)
 
 ## Description
 This calculator was my first major project after learning the fundamentals of web development. Created in 2022, it represents my initial exploration into combining HTML structure, CSS styling, and JavaScript functionality to create an interactive web application.
