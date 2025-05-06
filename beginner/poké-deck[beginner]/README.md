@@ -2,8 +2,8 @@
 
 A vibrant Pokémon encyclopedia leveraging the PokéAPI, created to practice fundamental web development skills and API integration.
 
-![Pokedex Main Screenshot]()
-![Pokedex Search Page Screenshot]()
+![Pokedex Main Screenshot](/beginner/poké-deck[beginner]/pokedex/src/pokémain_screenshot.png)
+![Pokedex Search Page Screenshot](/beginner/poké-deck[beginner]/pokedex/src/pokésearch_screenshot.png)
 ## Description
 This pink-themed web application was developed to strengthen my core web development skills through practical API implementation. Focused on clean data presentation and user interaction, it serves as my first major project working with external APIs.
 
@@ -67,4 +67,4 @@ This demonstrates foundational web development skills with some intermediate con
 - Favorites system
 - Mobile-first redesign
 
-> **🎮 Developer Note**: The most rewarding challenge was implementing seamless API integration while maintaining consistent data presentation across different Pokémon entries. Proud moment: Getting the Japanese theme music to play reliably across modern browsers!
+> **🎮 Note**: The most rewarding challenge was implementing seamless API integration while maintaining consistent data presentation across different Pokémon entries. Proud moment: Getting the Japanese theme music to play reliably across modern browsers!
