@@ -1,7 +1,6 @@
 # 🐍 Beginner Python Projects Collection
 
 [![Python Version](https://img.shields.io/badge/python-3.8%2B-blue)](https://www.python.org/)
-![Progress](https://img.shields.io/badge/progress-ongoing-yellowgreen)
 
 A growing collection of my first Python projects while learning programming fundamentals!
 
