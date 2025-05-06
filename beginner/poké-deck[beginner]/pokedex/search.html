@@ -1,0 +1,37 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Explore Meka's Pokedex and search for your favorite Pokémon. Listen to the Japanese Pokémon theme and have fun!">
+        <title>Meka Pokedex</title>
+        <link href="https://fonts.googleapis.com/css2?family=Macondo&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="/style/style.css">
+    </head>
+<body>
+    <header>
+        <img src="/src/pokedex.png" alt="Pokedex Banner" aria-label="Pokedex Banner" loading="lazy">
+        <audio controls >
+            <source src="/src/pokemon.japanese.mp3" type="audio/ogg">
+            <source src="/src/pokemon.japanese.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+    </header>
+
+
+    <form class="search-Box">
+        <input type="text" placeholder="Search by name or ID...eg ivysaur or 2" id="poke-input">
+        <button class="enter-Search" type="submit">
+            search
+        </button>
+    </form>
+
+    <a href="poke.html">
+        <button id="every-Thing" style="display:flex;">Back to Main</button>
+    </a>
+
+    <div id="poke_Container" ></div>
+<script src="/javascript/search.js"></script>
+</body>
+</html>
+

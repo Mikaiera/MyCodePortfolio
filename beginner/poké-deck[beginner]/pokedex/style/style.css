@@ -1,0 +1,218 @@
+/* General body styling */
+body {
+    background: linear-gradient(to left, rgba(153, 68, 233, 0.829), rgba(235, 52, 180, 0.795));
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    padding: 20px;
+    min-height: 100vh; /* Ensures content is centered vertically */
+}
+
+/* Article styling */
+article {
+    justify-content: center;
+    margin-top: 10px;
+    background-color: rgb(193, 114, 201);
+    border-radius: 20px;
+    border-style: dotted;
+    height: auto; /* Allow article to grow with content */
+    width: 100%;
+    max-width: 70em; /* Control max width */
+    padding: 20px; /* Added padding for breathing space */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Added shadow for depth */
+}
+
+/* Hide script tags */
+script {
+    display: none;
+}
+
+
+audio {
+    background-color: transparent;
+    margin-right: 20px;
+    outline: none;
+}
+
+audio::-webkit-media-controls-panel {
+    background-color: rgba(202, 47, 155, 0.795);
+}
+
+audio::-webkit-media-controls-play-button,
+audio::-webkit-media-controls-volume-slider {
+    color: whitesmoke;
+}
+
+audio:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+}
+
+h1 {
+    color: whitesmoke;
+    font-style: italic;
+    font-size: 3.5rem;
+    text-align: center; /* Center-align for better focus */
+    margin-bottom: 20px;
+}
+
+h3 {
+    text-align: center;
+    font-family: cursive, Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+/* Search Box */
+.search-Box {
+    display: inline-flex;
+    justify-content: center;
+    margin: 20px 0; 
+}
+
+/* Input fields */
+input {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    max-width: 450px;
+    height: 40px;
+    border-radius: 10px;
+    padding: 9px;
+    font-size: 1.3rem;
+    border: 2px solid rgba(151, 62, 136, 0.973);
+    transition: 0.2s ease-in-out;
+}
+
+input:focus {
+    outline: none;
+    border-color: rgba(235, 52, 180, 0.795);
+}
+
+/* Buttons */
+input, button {
+    font-size: 1.3rem;
+    padding: 9px;
+    border: none;
+    border-radius: 10px;
+}
+
+button:hover {
+    background-color: pink;
+    color: azure;
+    transition: 0.3s ease;
+}
+
+/* Hover effects */
+#a-Scending:hover, .enter-search:hover {
+    background-color: pink;
+    color: azure;
+}
+
+#de-Scending:hover, #every-Thing:hover {
+    background-color: blueviolet;
+    color: azure;
+}
+
+/* Container for Pokemon Cards */
+.poke_Container {
+    padding: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+/* Pokemon card styling */
+.pokemon {
+    background-color: rgba(231, 74, 184, 0.795);
+    display: inline-block;
+    border-radius: 10px;
+    border: 2px solid rgba(151, 62, 136, 0.973);
+    margin: 20px;
+    width: 15rem;
+    height: 22rem;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.pokemon:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px 5px rgba(231, 241, 238, 0.911);
+}
+
+/* Image container */
+.pokemon .image-Container {
+    border-radius: 10px;
+    margin: 20px;
+    background-color: rgba(231, 241, 245, 0.884);
+}
+
+.pokemon .image-Container img {
+    width: 100%;
+}
+
+/* Pokemon type */
+.poke-type {
+    font-family: "Macondo", cursive;
+    font-weight: bolder;
+    font-size: 1rem;
+    margin-left: 13px;
+    word-spacing: 1rem;
+}
+
+.poke-id {
+    margin-left: 97px;
+    margin-bottom: 17px;
+    border-radius: 5px;
+    background-color: rgba(255, 192, 203, 0.685);
+    text-align: center;
+}
+
+/* Filter Buttons */
+.filter-Buttons {
+    margin-top: 10px;
+    display: inline-flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+/* Stats */
+.stats {
+    font-size: 1.5rem;
+    text-align: center;
+    font-family: 'Macondo', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* General elements */
+h4, .pokeid {
+    font-family: "Macondo", cursive;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.poketype {
+    display: flex;
+    justify-content: center;
+    background-color: whitesmoke;
+    font-size: 1.2rem;
+    font-family: cursive;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    padding: 10px;
+    background-color: rgba(235, 52, 180, 0.795); 
+    border-bottom: 2px solid rgba(199, 34, 150, 0.726);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+header img {
+    width: 150px;
+    height: auto;
+}
