@@ -11,8 +11,6 @@ This repository contains progressively complex React applications built while ma
 
 ## 🧩 Featured Technologies
 - React 18+ (Hooks, Context API)
-- State Management (Redux, Zustand, Recoil)
-- Routing (React Router 6)
 - Styling (CSS Modules, Styled Components, Tailwind CSS)
 - Testing (Jest, React Testing Library)
 - Build Tools (Vite, Webpack)
