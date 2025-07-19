@@ -1,6 +1,7 @@
 # ⏱️ Stopwatch Web App (2023)
 
 A modern stopwatch application with lap functionality and keyboard controls, built with pure HTML, CSS, and JavaScript during my web development journey.
+> Live Demo: [https://stopwatch-meka.netlify.app/](https://stopwatch-meka.netlify.app/)
 
 ![Stopwatch Screenshot](/intermediate/stop-watch/stopwatch/Assets/stopwatch_screenshot.png)
 
@@ -33,4 +34,3 @@ Key characteristics:
 - **Design Tools**:
   - Visual Studio Code
   - Chrome Performance Tools
-  - Adobe Color for palette selection
