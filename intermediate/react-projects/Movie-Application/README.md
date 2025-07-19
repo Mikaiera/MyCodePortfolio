@@ -7,13 +7,17 @@
 
 > Live Demo: [https://cinetrack-meka.netlify.app/](https://cinetrack-meka.netlify.app/)
 
-A React movie discovery dashboard that displays trending movies and tracks top user searches. Built with Vite, TMDB API, and Appwrite database.
+A React movie discovery dashboard that displays trending movies(with their rating score, year of release and movie language ) and tracks top user searches. Built with Vite, TMDB API, and Appwrite database.Created as a practice project to learn React hooks, API integration, and database operations.
 
-## ✨ Features
+![Main Page](intermediate/react-projects/Movie-Application/screenshots/Main.png)
+![Top 5 Searches](intermediate/react-projects/Movie-Application/screenshots/Top5Searches.png)
+![Trending Movies](intermediate/react-projects/Movie-Application/screenshots/TrendingMovies.png)
+
+## 👾Features
+- 🔍 **Search through thousands of movies** from TMDB's extensive database
 - 🔥 Real-time trending movies from TMDB
 - 🏆 Top 5 most searched movies tracking
 - ⚡ Instant search with debouncing
-- 📊 Responsive grid layout with movie details
 - 💾 Search history persistence using Appwrite
 
 ## 🛠 Tech Stack
@@ -23,7 +27,7 @@ A React movie discovery dashboard that displays trending movies and tracks top u
 - **Database**: Appwrite (NoSQL database)
 - **Styling**: TailWindCSS
 - **Routing**: React Router
+- **Deployment**: Netlify
 
-## 🚀 Deployment
-Hosted on Netlify:  
-[https://cinetrack-meka.netlify.app/](https://cinetrack-meka.netlify.app/)
+## Feature Update Plan
+- 🔮 **Future potential addition**: Personalised movie recommendations based on user preferences using a questionnaire on the page. Along with making the movie cards more responsive to display additional movie details.
