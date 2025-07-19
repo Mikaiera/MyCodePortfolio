@@ -1,16 +1,12 @@
-# ⚛️ React Projects Collection
+# React + Vite
 
-[![React Version](https://img.shields.io/badge/react-18.2%2B-%2361DAFB)](https://reactjs.org/)
-[![Project Status](https://img.shields.io/badge/status-actively_developing-brightgreen)]()
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-A collection of React projects demonstrating growing proficiency in frontend development and modern web solutions! Each project incorporates industry practices and real-world application scenarios.
+Currently, two official plugins are available:
 
-## 🚀 Project Evolution
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-This repository contains progressively complex React applications built while mastering component architecture, state management, and UI/UX principles. Projects range from foundational concepts to advanced implementations.
+## Expanding the ESLint configuration
 
-## 🧩 Featured Technologies
-- React 18+ (Hooks, Context API)
-- Styling (CSS Modules, Styled Components, Tailwind CSS)
-- Build Tools (Vite, Webpack)
-
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
