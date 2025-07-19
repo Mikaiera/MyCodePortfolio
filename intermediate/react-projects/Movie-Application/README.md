@@ -9,9 +9,9 @@
 
 A React movie discovery dashboard that displays trending movies(with their rating score, year of release and movie language ) and tracks top user searches. Built with Vite, TMDB API, and Appwrite database.Created as a practice project to learn React hooks, API integration, and database operations.
 
-![Main Page](intermediate/react-projects/Movie-Application/screenshots/Main.png)
-![Top 5 Searches](intermediate/react-projects/Movie-Application/screenshots/Top5Searches.png)
-![Trending Movies](intermediate/react-projects/Movie-Application/screenshots/TrendingMovies.png)
+![Main Page](/intermediate/react-projects/Movie-Application/screenshots/Main.png)
+![Top 5 Searches](/intermediate/react-projects/Movie-Application/screenshots/Top5Searches.png)
+![Trending Movies](/intermediate/react-projects/Movie-Application/screenshots/TrendingMovies.png)
 
 ## 👾Features
 - 🔍 **Search through thousands of movies** from TMDB's extensive database
